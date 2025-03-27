@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Spring Snow",
+        "author": "Yukio Mishima",
+        "year": 1969,
+        "read": true
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 1979,
+        "read": true
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1948,
+        "read": false
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "George Orwell",
+        "year": 1345,
+        "read": true
+    },
+    {
+        "title": "heelo ",
+        "author": "George Orwell",
+        "year": 2022,
+        "read": true
+    }
+]
