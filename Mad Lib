@@ -1,0 +1,208 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPGnlwXDuXD7lLEOuky8FwR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Anum-khan23/python_assigment/blob/main/Mad%20Lib\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "SgjFdcuSRlRv"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **📌 Part 1: String Concatenation**\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "Uo9xoMI4RqkL"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "In the first part, we define a variable youtuber and use three different ways to concatenate strings."
+      ],
+      "metadata": {
+        "id": "NoOodmrkR6XG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "youtuber = \"Kylie Ying\"  # Define a string variable\n"
+      ],
+      "metadata": {
+        "id": "2jwUwO82SHwd"
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "🔹 1. **Using** + **Operator**\n"
+      ],
+      "metadata": {
+        "id": "yq8oXWEhSMDh"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"subscribe to \" + youtuber)\n"
+      ],
+      "metadata": {
+        "id": "xVH1G-BiSbwj"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "🔹 2. **Using .format() Method**"
+      ],
+      "metadata": {
+        "id": "6zOt3FKzSeHR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"subscribe to {}\".format(youtuber))\n"
+      ],
+      "metadata": {
+        "id": "6BqdvITVSl0o"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "🔹 3. **Using f-strings (Best & Easiest)**"
+      ],
+      "metadata": {
+        "id": "Q_svVgO7SpCH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(f\"subscribe to {youtuber}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9ittlt7sSw1l",
+        "outputId": "65df6f88-d819-40ef-f10d-7c436cc5f975"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "subscribe to Kylie Ying\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# ***📌 Part 2: Mad Libs Game (User Input & String Formatting)***\n",
+        "\n",
+        "\n",
+        "The next part of the code is a Mad Libs game, where users input words to create a funny story."
+      ],
+      "metadata": {
+        "id": "YfBUxZz5SzS9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "adj = input(\"Adjective: \")  # Asks the user to enter an adjective\n",
+        "verb1 = input(\"Verb: \")  # Asks the user to enter a verb\n",
+        "verb2 = input(\"Verb: \")  # Asks the user to enter another verb\n",
+        "famous_person = input(\"Famous person: \")  # Asks for a famous person's name\n"
+      ],
+      "metadata": {
+        "id": "67nDA6neTLJy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "🔹 **Creating the Mad Libs Sentence**"
+      ],
+      "metadata": {
+        "id": "bKz2tppHTVva"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "madlib = f\"Computer programming is so {adj}! It makes me so excited all the time because \\\n",
+        "I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!\"\n"
+      ],
+      "metadata": {
+        "id": "kFNtgk21TaiN"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "🔹 **Printing the Final Story**"
+      ],
+      "metadata": {
+        "id": "6DLKlp7XTd9C"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(madlib)\n"
+      ],
+      "metadata": {
+        "id": "s_mRXDV8TlsF"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
